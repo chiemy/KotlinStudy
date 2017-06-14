@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         // delegateTest()
         // basicTest()
         // testIf()
-        testWhen()
+        // testWhen()
+        testReturnsAndJumps()
     }
 
 }

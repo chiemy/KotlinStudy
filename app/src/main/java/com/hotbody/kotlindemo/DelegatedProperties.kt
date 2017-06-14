@@ -51,6 +51,7 @@ class Example {
     // 函数 lazy() 接受一个 lambda 然后返回一个可以作为实现延迟属性的委托 Lazy<T> 实例来:
     // 第一次对于 get()的调用会执行（之前）传递到 lazy()的lamda表达式并记录结果,
     // 后面的 get() 调用会直接返回记录的结果。
+
     // 对于lazy属性的计算是线程安全的
     val lazyValueThreadSafety: String by lazy {
         "Hello"
